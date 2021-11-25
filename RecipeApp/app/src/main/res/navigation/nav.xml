@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="my.com.recipeapp.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="my.com.recipeapp.ui.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/recipeDetailFragment"
+        android:name="my.com.recipeapp.ui.RecipeDetailFragment"
+        android:label="fragment_recipe_detail"
+        tools:layout="@layout/fragment_recipe_detail" />
+    <fragment
+        android:id="@+id/insertRecipeFragment"
+        android:name="my.com.recipeapp.ui.InsertRecipeFragment"
+        android:label="fragment_insert_recipe"
+        tools:layout="@layout/fragment_insert_recipe" />
+    <fragment
+        android:id="@+id/ingredientsFragment"
+        android:name="my.com.recipeapp.ui.IngredientsFragment"
+        android:label="fragment_ingredients"
+        tools:layout="@layout/fragment_ingredients" />
+    <fragment
+        android:id="@+id/stepsFragment"
+        android:name="my.com.recipeapp.ui.StepsFragment"
+        android:label="fragment_steps"
+        tools:layout="@layout/fragment_steps" />
+    <fragment
+        android:id="@+id/categoryDetailFragment"
+        android:name="my.com.recipeapp.ui.CategoryDetailFragment"
+        android:label="fragment_category_detail"
+        tools:layout="@layout/fragment_category_detail" />
+    <fragment
+        android:id="@+id/updateRecipeFragment"
+        android:name="my.com.recipeapp.ui.UpdateRecipeFragment"
+        android:label="fragment_update_recipe"
+        tools:layout="@layout/fragment_update_recipe" />
+    <fragment
+        android:id="@+id/listIngredientFragment"
+        android:name="my.com.recipeapp.ui.listIngredientFragment"
+        android:label="fragment_list_ingredient"
+        tools:layout="@layout/fragment_list_ingredient" />
+    <fragment
+        android:id="@+id/listStepFragment"
+        android:name="my.com.recipeapp.ui.listStepFragment"
+        android:label="fragment_list_step"
+        tools:layout="@layout/fragment_list_step" />
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="my.com.recipeapp.ui.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" />
+</navigation>
